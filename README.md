@@ -8,7 +8,7 @@ git submodule update --init --recursive --remote
 And add this line to ~/.vimrc
 
 ```
-runtime vimrc
+runtime .vimrc
 ```
 
 Run this command to add it:
