@@ -1,10 +1,16 @@
 [submodule "vim-multiple-cursors"]
 	path = pack/vendor/start/vim-multiple-cursors
 	url = https://github.com/terryma/vim-multiple-cursors.git
-[submodule "vim-coffee-script"]
-	path = pack/vendor/start/vim-coffee-script
-  url = https://github.com/kchmck/vim-coffee-script.git
+[submodule "vim-polyglot"]
+	path = pack/vendor/start/vim-polyglot
+  url = https://github.com/sheerun/vim-polyglot.git
 [submodule "nerdtree"]
 	path = pack/vendor/start/nerdtree
   url = https://github.com/preservim/nerdtree.git
+[submodule "lightline.vim"]
+	path = pack/vendor/start/lightline.vim
+  url = https://github.com/itchyny/lightline.vim.git
+[submodule "onedark.vim"]
+	path = pack/vendor/opt/onedark.vim
+  url = https://github.com/joshdick/onedark.vim.git
 
