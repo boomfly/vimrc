@@ -14,5 +14,5 @@ runtime .vimrc
 Run this command to add it:
 
 ```
-echo "runtime vimrc" > .vimrc
+echo "runtime .vimrc" > .vimrc
 ```
