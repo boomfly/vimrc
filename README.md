@@ -3,16 +3,7 @@ VIM configuration
 ```
 git clone https://github.com/boomfly/vimrc.git ~/.vim
 git submodule update --init --recursive --remote
+cd ~/.vim
+echo "runtime .vimrc" > ~/.vimrc
 ```
 
-And add this line to ~/.vimrc
-
-```
-runtime .vimrc
-```
-
-Run this command to add it:
-
-```
-echo "runtime .vimrc" > .vimrc
-```
