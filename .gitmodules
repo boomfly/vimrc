@@ -1,16 +1,22 @@
+[submodule "vim-sensible"]
+  path = pack/vendor/after/vim-sensible
+	url = https://github.com/tpope/vim-sensible.git
 [submodule "vim-multiple-cursors"]
-	path = pack/vendor/start/vim-multiple-cursors
+  path = pack/vendor/start/vim-multiple-cursors
 	url = https://github.com/terryma/vim-multiple-cursors.git
 [submodule "vim-polyglot"]
-	path = pack/vendor/start/vim-polyglot
+  path = pack/vendor/start/vim-polyglot
   url = https://github.com/sheerun/vim-polyglot.git
 [submodule "nerdtree"]
-	path = pack/vendor/start/nerdtree
+  path = pack/vendor/start/nerdtree
   url = https://github.com/preservim/nerdtree.git
 [submodule "lightline.vim"]
-	path = pack/vendor/start/lightline.vim
+  path = pack/vendor/start/lightline.vim
   url = https://github.com/itchyny/lightline.vim.git
 [submodule "onedark.vim"]
-	path = pack/vendor/opt/onedark.vim
+  path = pack/vendor/opt/onedark.vim
   url = https://github.com/joshdick/onedark.vim.git
+[submodule "ctrlp.vim"]
+  path = pack/vendor/start/ctrlp.vim
+  url = https://github.com/ctrlpvim/ctrlp.vim.git
 
