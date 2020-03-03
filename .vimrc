@@ -16,12 +16,35 @@ set nobackup
 set nowb
 set noswapfile
 
-" Map NERDTree
-nnoremap <Leader>f :NERDTreeToggle<Enter>
-nnoremap <silent> <Leader>v :NERDTreeFind<CR>
+set rtp+=~/.vim/.fzf
+
 
 let g:ctrlp_show_hidden = 1
 let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git|.meteor/local'
 
+let $FZF_DEFAULT_COMMAND = "find ."
+
 " TODO: Migrate to FZF
 " https://jesseleite.com/posts/2/its-dangerous-to-vim-alone-take-fzf
+
+" With a map leader it's possible to do extra key combinations
+" like <leader>w saves the current file
+let mapleader = ","
+
+" Map NERDTree
+nnoremap <Leader>F :NERDTreeToggle<Enter>
+nnoremap <silent> <Leader>v :NERDTreeFind<CR>
+
+" Map fzf
+" nmap <Leader>f :GFiles<CR>
+nmap <Leader>f :Files<CR>
+nmap <Leader>b :Buffers<CR>
+nmap <Leader>h :History<CR>
+nmap <Leader>t :BTags<CR>
+nmap <Leader>T :Tags<CR>
+nmap <Leader>l :BLines<CR>
+nmap <Leader>L :Lines<CR>
+nmap <Leader>' :Marks<CR>
+nmap <Leader>/ :Ag<Space>
+nmap <Leader>/ :Rg<Space>
+

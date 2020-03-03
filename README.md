@@ -7,3 +7,8 @@ git submodule update --init --recursive --remote
 echo "runtime .vimrc" > ~/.vimrc
 ```
 
+Enable fzf
+
+```
+~/.vim/.fzf/install --bin
+```

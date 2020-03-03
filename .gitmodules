@@ -19,4 +19,10 @@
 [submodule "ctrlp.vim"]
   path = pack/vendor/start/ctrlp.vim
   url = https://github.com/ctrlpvim/ctrlp.vim.git
+[submodule "fzf"]
+  path = .fzf
+  url = https://github.com/junegunn/fzf.git
+[submodule "fzf.vim"]
+  path = pack/vendor/start/fzf.vim
+  url = https://github.com/junegunn/fzf.vim.git
 
